@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 三職七科制（慶応4年1月17日 / 1868-02-10）
+時点: 三職八局制（慶応4年2月3日 / 1868-02-25）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -13,25 +13,27 @@ flowchart TB
     G["議定"]
     P["参与"]
   end
-  Jingi["神祇事務科"]
+  Sosai["総裁局"]
+  S --> Sosai
+  Jingi["神祇事務局"]
   S --> Jingi
-  Naikoku["内国事務科"]
+  Naikoku["内国事務局"]
   S --> Naikoku
-  Gaikoku["外国事務科"]
+  Gaikoku["外国事務局"]
   S --> Gaikoku
-  Kai["海陸軍事務科"]
-  S --> Kai
-  Kaikei["会計事務科"]
+  Gunbo["軍防事務局"]
+  S --> Gunbo
+  Kaikei["会計事務局"]
   S --> Kaikei
-  Keiho["刑法事務科"]
+  Keiho["刑法事務局"]
   S --> Keiho
-  Seido["制度寮"]
+  Seido["制度事務局"]
   S --> Seido
 ```
 
 ## 備考
 
-- 三職の下に七科（事務分掌）
+- 七科を八局に改め、総裁局を新設
 
 ## 出典
 
