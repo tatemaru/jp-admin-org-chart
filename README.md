@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 教部省廃止（明治10年1月11日 / 1877-01-11）
+時点: 正院廃止（明治10年1月18日 / 1877-01-18）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -9,27 +9,26 @@
 ```mermaid
 flowchart TB
   subgraph top["最高機関"]
-    Sei["正院
-太政大臣・納言・参議"]
+    Dajokan["太政官"]
   end
   Okura["大蔵省"]
-  Sei --> Okura
+  Dajokan --> Okura
   Shiho["司法省"]
-  Sei --> Shiho
+  Dajokan --> Shiho
   Kunai["宮内省"]
-  Sei --> Kunai
+  Dajokan --> Kunai
   Gaimu["外務省"]
-  Sei --> Gaimu
+  Dajokan --> Gaimu
   Kobu["工部省"]
-  Sei --> Kobu
+  Dajokan --> Kobu
   Mombu["文部省"]
-  Sei --> Mombu
+  Dajokan --> Mombu
   Rikugun["陸軍省"]
-  Sei --> Rikugun
+  Dajokan --> Rikugun
   Kaigun["海軍省"]
-  Sei --> Kaigun
+  Dajokan --> Kaigun
   Naimu["内務省"]
-  Sei --> Naimu
+  Dajokan --> Naimu
   Kaitaku["開拓使"]
   Genro["元老院"]
   Daishin["大審院"]
@@ -38,7 +37,7 @@ flowchart TB
 
 ## 備考
 
-- 教部省廃止（社寺事務は内務省へ）
+- 正院の呼称を廃し太政官へ（職制整理）
 
 ## 出典
 
