@@ -1,60 +1,36 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 朝鮮総督府設置（明治43年10月1日 / 1910-10-01）
+時点: 農商務省分割・農林省／商工省設置（大正14年4月1日 / 1925-04-01）
 
-出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
+出典粒度: 国会図書館「中央省庁再編の制度と運用」再編年表（府省級）
 
 ## 全体概要
 
 ```mermaid
 flowchart TB
-  subgraph top["最高機関"]
-    Cab["内閣
-内閣総理大臣"]
-  end
-  Gaimu["外務省"]
-  Cab --> Gaimu
-  Naimu["内務省"]
-  Cab --> Naimu
-  Okura["大蔵省"]
-  Cab --> Okura
-  Rikugun["陸軍省"]
-  Cab --> Rikugun
-  Kaigun["海軍省"]
-  Cab --> Kaigun
-  Shiho["司法省"]
-  Cab --> Shiho
-  Mombu["文部省"]
-  Cab --> Mombu
-  Nosho["農商務省"]
-  Cab --> Nosho
-  Teishin["逓信省"]
-  Cab --> Teishin
-  Daishin["大審院"]
-  Audit["会計検査院"]
-  Sanbo["参謀本部"]
-  Kunai["宮内省"]
-  Naidaijin["内大臣府"]
-  Hokkaido["北海道庁"]
+  Cab["内閣"]
+  Cab --> Gaimu["外務省"]
+  Cab --> Naimu["内務省"]
+  Cab --> Okura["大蔵省"]
+  Cab --> Rikugun["陸軍省"]
+  Cab --> Kaigun["海軍省"]
+  Cab --> Shiho["司法省"]
+  Cab --> Mombu["文部省"]
+  Cab --> Norin["農林省"]
+  Cab --> Shoko["商工省"]
+  Cab --> Teishin["逓信省"]
+  Cab --> Tetsudo["鉄道省"]
+  Diet["帝国議会"]
+  Court["裁判所（大審院）"]
   Privy["枢密院"]
-  Diet["帝国議会
-貴族院・衆議院"]
-  Kanto["関東都督府"]
-  Karafuto["樺太庁"]
-  Tetsudo["鉄道院"]
-  TakushokuKyoku["拓殖局"]
-  Chosen["朝鮮総督府"]
+  Audit["会計検査院"]
 ```
 
 ## 備考
 
-- 韓国併合に伴い統監府を廃し朝鮮総督府を設置
+- 農商務省を農林省・商工省に分割
+- 鉄道省は大正9年設置済み
 
 ## 出典
 
-- [JACAR 組織変遷表：職員令](https://www.jacar.go.jp/exhibition/glossary/meijiasia/table/transition1.html)
-- [JACAR 組織変遷表：廃藩置県～太政官制廃止](https://www.jacar.go.jp/exhibition/glossary/meijiasia/table/transition2.html)
-- [JACAR 組織変遷表：内閣制発足](https://www.jacar.go.jp/exhibition/glossary/meijiasia/table/transition3.html)
-- [JACAR 組織変遷表：台湾領有以降](https://www.jacar.go.jp/exhibition/glossary/meijiasia/table/transition4.html)
-- [JACAR 年表：内政・外政・工業](https://www.jacar.go.jp/exhibition/glossary/meijiasia/table/history1.html)
-
+- https://dl.ndl.go.jp/pid/8243529 （中央省庁再編の制度と運用）
