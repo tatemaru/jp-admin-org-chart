@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 三職八局制（慶応4年2月3日 / 1868-02-25）
+時点: 政体書体制（慶応4年閏4月21日 / 1868-06-11）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -9,31 +9,27 @@
 ```mermaid
 flowchart TB
   subgraph top["最高機関"]
-    S["総裁"]
-    G["議定"]
-    P["参与"]
+    Dajokan["太政官"]
   end
-  Sosai["総裁局"]
-  S --> Sosai
-  Jingi["神祇事務局"]
-  S --> Jingi
-  Naikoku["内国事務局"]
-  S --> Naikoku
-  Gaikoku["外国事務局"]
-  S --> Gaikoku
-  Gunbo["軍防事務局"]
-  S --> Gunbo
-  Kaikei["会計事務局"]
-  S --> Kaikei
-  Keiho["刑法事務局"]
-  S --> Keiho
-  Seido["制度事務局"]
-  S --> Seido
+  Gisei["議政官（上局・下局）"]
+  Dajokan --> Gisei
+  Gyosei["行政官"]
+  Dajokan --> Gyosei
+  KeihoKan["刑法官"]
+  Dajokan --> KeihoKan
+  JingiKan["神祇官"]
+  Dajokan --> JingiKan
+  KaikeiKan["会計官"]
+  Dajokan --> KaikeiKan
+  GunmuKan["軍務官"]
+  Dajokan --> GunmuKan
+  GaikokuKan["外国官"]
+  Dajokan --> GaikokuKan
 ```
 
 ## 備考
 
-- 七科を八局に改め、総裁局を新設
+- 政体書により太政官へ。行政官の下に神祇・会計・軍務・外国の各官
 
 ## 出典
 
