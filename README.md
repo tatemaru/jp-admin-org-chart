@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 台湾事務局設置（明治28年6月14日 / 1895-06-14）
+時点: 拓殖務省設置（明治29年3月31日 / 1896-03-31）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -30,6 +30,8 @@ flowchart TB
   Cab --> Nosho
   Teishin["逓信省"]
   Cab --> Teishin
+  Takushoku["拓殖務省"]
+  Cab --> Takushoku
   Daishin["大審院"]
   Audit["会計検査院"]
   Sanbo["参謀本部"]
@@ -39,12 +41,11 @@ flowchart TB
   Privy["枢密院"]
   Diet["帝国議会
 貴族院・衆議院"]
-  TaiwanJim["台湾事務局"]
 ```
 
 ## 備考
 
-- 日清戦後、内閣に台湾事務局を設置（JACAR transition4: 1895-06-14）
+- 拓殖務省を設置（台湾事務局を移管）
 
 ## 出典
 
