@@ -1,8 +1,8 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 防衛庁設置（昭和29年7月1日 / 1954-07-01）
+時点: 国土庁設置後（昭和49年6月26日 / 1974-06-26）
 
-出典粒度: 国会図書館再編年表（府省級）
+出典粒度: 国会図書館再編年表（府省級）— 大臣庁拡充期の代表時点
 
 ## 全体概要
 
@@ -13,6 +13,11 @@ flowchart TB
   Cab["内閣"]
   Cab --> Sorifu["総理府"]
   Sorifu --> Boei["防衛庁"]
+  Sorifu --> KeizaiKikaku["経済企画庁"]
+  Sorifu --> Kagaku["科学技術庁"]
+  Sorifu --> Kankyo["環境庁"]
+  Sorifu --> Okinawa["沖縄開発庁"]
+  Sorifu --> Kokudo["国土庁"]
   Sorifu --> Hokkaido["北海道開発庁"]
   Cab --> Gaimu["外務省"]
   Cab --> Okura["大蔵省"]
@@ -25,11 +30,16 @@ flowchart TB
   Cab --> Yusei["郵政省"]
   Cab --> Rodo["労働省"]
   Cab --> Kensetsu["建設省"]
+  Cab --> Jichi["自治省"]
   NPA["国家公安委員会"]
   Audit["会計検査院"]
 ```
 
+## 備考
+
+- 昭和35年自治省、昭和46年環境庁、昭和47年沖縄開発庁、昭和49年国土庁
+- いわゆる1府12省＋大臣庁が並ぶ時期
+
 ## 出典
 
-- 防衛庁設置法
 - https://dl.ndl.go.jp/pid/8243529
