@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 弾正台設置（明治2年5月22日 / 1869-07-01）
+時点: 職員令・2官6省（明治2年7月8日 / 1869-08-15）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -9,30 +9,30 @@
 ```mermaid
 flowchart TB
   subgraph top["最高機関"]
-    Dajokan["太政官"]
+    JingiKan["神祇官"]
+    Dajokan["太政官
+左大臣・右大臣・大納言・参議"]
   end
-  Gisei["議政官（上局・下局）"]
-  Dajokan --> Gisei
-  Gyosei["行政官"]
-  Dajokan --> Gyosei
-  KeihoKan["刑法官"]
-  Dajokan --> KeihoKan
-  JingiKan["神祇官"]
-  Dajokan --> JingiKan
-  KaikeiKan["会計官"]
-  Dajokan --> KaikeiKan
-  GunmuKan["軍務官"]
-  Dajokan --> GunmuKan
-  GaikokuKan["外国官"]
-  Dajokan --> GaikokuKan
-  MinbuKan["民部官"]
-  Dajokan --> MinbuKan
+  Minbu["民部省"]
+  JingiKan --> Minbu
+  Okura["大蔵省"]
+  JingiKan --> Okura
+  Hyobu["兵部省"]
+  JingiKan --> Hyobu
+  Kunai["宮内省"]
+  JingiKan --> Kunai
+  Gaimu["外務省"]
+  JingiKan --> Gaimu
+  Keibu["刑部省"]
+  JingiKan --> Keibu
   Danjo["弾正台"]
+  Kaitaku["開拓使"]
 ```
 
 ## 備考
 
-- 監察機関として弾正台を設置
+- 職員令により2官6省。刑法官→刑部省、外国官→外務省など
+- 開拓使を併置（JACAR transition1）
 
 ## 出典
 
