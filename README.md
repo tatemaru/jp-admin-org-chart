@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 開拓使廃止（明治15年2月8日 / 1882-02-08）
+時点: 内閣制度創設（明治18年12月22日 / 1885-12-22）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -9,39 +9,39 @@
 ```mermaid
 flowchart TB
   subgraph top["最高機関"]
-    Dajokan["太政官"]
+    Cab["内閣
+内閣総理大臣"]
   end
-  Okura["大蔵省"]
-  Dajokan --> Okura
-  Shiho["司法省"]
-  Dajokan --> Shiho
-  Kunai["宮内省"]
-  Dajokan --> Kunai
   Gaimu["外務省"]
-  Dajokan --> Gaimu
-  Kobu["工部省"]
-  Dajokan --> Kobu
-  Mombu["文部省"]
-  Dajokan --> Mombu
-  Rikugun["陸軍省"]
-  Dajokan --> Rikugun
-  Kaigun["海軍省"]
-  Dajokan --> Kaigun
+  Cab --> Gaimu
   Naimu["内務省"]
-  Dajokan --> Naimu
+  Cab --> Naimu
+  Okura["大蔵省"]
+  Cab --> Okura
+  Rikugun["陸軍省"]
+  Cab --> Rikugun
+  Kaigun["海軍省"]
+  Cab --> Kaigun
+  Shiho["司法省"]
+  Cab --> Shiho
+  Mombu["文部省"]
+  Cab --> Mombu
   Nosho["農商務省"]
-  Dajokan --> Nosho
+  Cab --> Nosho
+  Teishin["逓信省"]
+  Cab --> Teishin
   Genro["元老院"]
   Daishin["大審院"]
-  Chiho["地方官会議"]
-  Sanbo["参謀本部"]
   Audit["会計検査院"]
-  Sanji["参事院"]
+  Sanbo["参謀本部"]
+  Kunai["宮内省"]
+  Naidaijin["内大臣府"]
 ```
 
 ## 備考
 
-- 開拓使廃止。函館・札幌・根室の3県へ
+- 太政官を廃し内閣制。工部省・参事院廃止、逓信省新設
+- 宮内省は閣外（JACAR history1）
 
 ## 出典
 
