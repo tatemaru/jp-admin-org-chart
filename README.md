@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 会計検査院設置（明治13年3月5日 / 1880-03-05）
+時点: 農商務省設置（明治14年4月7日 / 1881-04-07）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -29,6 +29,8 @@ flowchart TB
   Dajokan --> Kaigun
   Naimu["内務省"]
   Dajokan --> Naimu
+  Nosho["農商務省"]
+  Dajokan --> Nosho
   Kaitaku["開拓使"]
   Genro["元老院"]
   Daishin["大審院"]
@@ -39,7 +41,7 @@ flowchart TB
 
 ## 備考
 
-- 会計検査院を設置
+- 勧業・商務などを束ねて農商務省を設置
 
 ## 出典
 
