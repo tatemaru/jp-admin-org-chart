@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 民部省廃止（明治4年7月27日 / 1871-09-11）
+時点: 三院制（明治4年7月29日 / 1871-09-13）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -9,30 +9,33 @@
 ```mermaid
 flowchart TB
   subgraph top["最高機関"]
-    JingiKan["神祇官"]
-    Dajokan["太政官
-左大臣・右大臣・大納言・参議"]
+    Sei["正院
+太政大臣・納言・参議"]
+    Sa["左院"]
+    U["右院"]
   end
+  JingiSho["神祇官"]
+  Sei --> JingiSho
   Okura["大蔵省"]
-  JingiKan --> Okura
+  Sei --> Okura
   Hyobu["兵部省"]
-  JingiKan --> Hyobu
-  Kunai["宮内省"]
-  JingiKan --> Kunai
-  Gaimu["外務省"]
-  JingiKan --> Gaimu
-  Kobu["工部省"]
-  JingiKan --> Kobu
+  Sei --> Hyobu
   Shiho["司法省"]
-  JingiKan --> Shiho
+  Sei --> Shiho
+  Kunai["宮内省"]
+  Sei --> Kunai
+  Gaimu["外務省"]
+  Sei --> Gaimu
+  Kobu["工部省"]
+  Sei --> Kobu
   Mombu["文部省"]
-  JingiKan --> Mombu
+  Sei --> Mombu
   Kaitaku["開拓使"]
 ```
 
 ## 備考
 
-- 民部省廃止。事務は大蔵省・工部省などへ
+- 廃藩置県後、正院・左院・右院の三院制
 
 ## 出典
 
