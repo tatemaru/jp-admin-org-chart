@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 陸海軍省設置（明治5年2月28日 / 1872-04-05）
+時点: 教部省設置（明治5年3月14日 / 1872-04-21）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -14,8 +14,6 @@ flowchart TB
     Sa["左院"]
     U["右院"]
   end
-  JingiSho["神祇省"]
-  Sei --> JingiSho
   Okura["大蔵省"]
   Sei --> Okura
   Shiho["司法省"]
@@ -32,12 +30,14 @@ flowchart TB
   Sei --> Rikugun
   Kaigun["海軍省"]
   Sei --> Kaigun
+  Kyobu["教部省"]
+  Sei --> Kyobu
   Kaitaku["開拓使"]
 ```
 
 ## 備考
 
-- 兵部省を廃し陸軍省・海軍省を設置
+- 神祇省を廃し教部省を設置
 
 ## 出典
 
