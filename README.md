@@ -1,48 +1,59 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 金融再生委員会設置後（平成10年12月15日 / 1998-12-15）— 中央省庁再編直前の1府22省庁
+時点: 中央省庁再編（平成13年1月6日 / 2001-01-06）
 
-出典粒度: 国会図書館再編年表 / 中央省庁再編（Wikipedia）— **大臣庁まで**
+平成以降は府省ごとにディレクトリを分け、**外局・主要な特別の機関**まで記載。
 
 ## 全体概要
 
 ```mermaid
 flowchart TB
-  Diet["国会"]
-  Court["裁判所"]
-  Audit["会計検査院"]
+  subgraph appendix["付録"]
+    Diet["国会"]
+    Court["裁判所"]
+    Audit["会計検査院"]
+  end
   Cab["内閣"]
-  Cab --> Sorifu["総理府"]
-  Sorifu --> SomuCho["総務庁"]
-  Sorifu --> Hokkaido["北海道開発庁"]
-  Sorifu --> Boei["防衛庁"]
-  Sorifu --> Keizai["経済企画庁"]
-  Sorifu --> Kagaku["科学技術庁"]
-  Sorifu --> Kankyo["環境庁"]
-  Sorifu --> Okinawa["沖縄開発庁"]
-  Sorifu --> Kokudo["国土庁"]
-  Sorifu --> NPA["国家公安委員会"]
-  Sorifu --> Kinyu["金融再生委員会"]
+  Cab --> NKikan["内閣の機関"]
+  Cab --> CAO["内閣府"]
+  Cab --> Somu["総務省"]
   Cab --> Homu["法務省"]
   Cab --> Gaimu["外務省"]
-  Cab --> Okura["大蔵省"]
-  Cab --> Mombu["文部省"]
-  Cab --> Kosei["厚生省"]
-  Cab --> Norin["農林水産省"]
-  Cab --> Tsusan["通商産業省"]
-  Cab --> Unyu["運輸省"]
-  Cab --> Yusei["郵政省"]
-  Cab --> Rodo["労働省"]
-  Cab --> Kensetsu["建設省"]
-  Cab --> Jichi["自治省"]
+  Cab --> Zaimu["財務省"]
+  Cab --> Mext["文部科学省"]
+  Cab --> Mhlw["厚生労働省"]
+  Cab --> Maff["農林水産省"]
+  Cab --> Meti["経済産業省"]
+  Cab --> Mlit["国土交通省"]
+  Cab --> Env["環境省"]
+  CAO --> NPA["国家公安委員会"]
+  CAO --> Boei["防衛庁"]
+  CAO --> FSA["金融庁"]
 ```
 
-## 備考
+## 行政機構
 
-- いわゆる1府22省庁（大臣を長とする府・省・庁・委員会）
-- 金融監督庁は1998年設置、2000年に金融庁へ。再編で内閣府外局の金融庁へ統合
+- [内閣の機関](行政機構/内閣の機関/README.md)
+- [内閣府](行政機構/内閣府/README.md)
+- [総務省](行政機構/総務省/README.md)
+- [法務省](行政機構/法務省/README.md)
+- [外務省](行政機構/外務省/README.md)
+- [財務省](行政機構/財務省/README.md)
+- [文部科学省](行政機構/文部科学省/README.md)
+- [厚生労働省](行政機構/厚生労働省/README.md)
+- [農林水産省](行政機構/農林水産省/README.md)
+- [経済産業省](行政機構/経済産業省/README.md)
+- [国土交通省](行政機構/国土交通省/README.md)
+- [環境省](行政機構/環境省/README.md)
+
+## 付録
+
+- [国会](付録/国会/README.md)
+- [裁判所](付録/裁判所/README.md)
+- [会計検査院](付録/会計検査院/README.md)
 
 ## 出典
 
 - https://ja.wikipedia.org/wiki/中央省庁再編
-- https://dl.ndl.go.jp/pid/8243529
+- https://ja.wikipedia.org/wiki/外局
+- 中央省庁等改革関連法・各府省設置法
