@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 神祇省改組（明治4年8月8日 / 1871-09-22）
+時点: 陸海軍省設置（明治5年2月28日 / 1872-04-05）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -18,8 +18,6 @@ flowchart TB
   Sei --> JingiSho
   Okura["大蔵省"]
   Sei --> Okura
-  Hyobu["兵部省"]
-  Sei --> Hyobu
   Shiho["司法省"]
   Sei --> Shiho
   Kunai["宮内省"]
@@ -30,12 +28,16 @@ flowchart TB
   Sei --> Kobu
   Mombu["文部省"]
   Sei --> Mombu
+  Rikugun["陸軍省"]
+  Sei --> Rikugun
+  Kaigun["海軍省"]
+  Sei --> Kaigun
   Kaitaku["開拓使"]
 ```
 
 ## 備考
 
-- 神祇官を神祇省に改組
+- 兵部省を廃し陸軍省・海軍省を設置
 
 ## 出典
 
