@@ -1,6 +1,6 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: 工部省設置（明治3年閏10月20日 / 1870-12-12）
+時点: 司法省設置（明治4年7月9日 / 1871-08-24）
 
 出典粒度: JACAR 組織変遷表・年表（府省／使／院／庁級）
 
@@ -23,17 +23,16 @@ flowchart TB
   JingiKan --> Kunai
   Gaimu["外務省"]
   JingiKan --> Gaimu
-  Keibu["刑部省"]
-  JingiKan --> Keibu
   Kobu["工部省"]
   JingiKan --> Kobu
-  Danjo["弾正台"]
+  Shiho["司法省"]
+  JingiKan --> Shiho
   Kaitaku["開拓使"]
 ```
 
 ## 備考
 
-- 工部省新設。鉱山・鉄道・電信・燈台など技術部門を移管（JACAR）
+- 刑部省・弾正台を廃し司法省を設置
 
 ## 出典
 
