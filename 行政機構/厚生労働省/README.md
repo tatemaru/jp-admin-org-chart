@@ -7,7 +7,6 @@ flowchart TB
   root["厚生労働省"]
   subgraph g0["外局"]
     n0_0["中央労働委員会"]
-    n0_1["社会保険庁"]
   end
   root --> g0
 ```
