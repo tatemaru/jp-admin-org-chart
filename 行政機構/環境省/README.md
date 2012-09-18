@@ -5,8 +5,8 @@
 ```mermaid
 flowchart TB
   root["環境省"]
-  subgraph g0["備考"]
-    n0_0["再編時点の外局なし（庁から昇格）"]
+  subgraph g0["外局"]
+    n0_0["原子力規制委員会（原子力規制庁）"]
   end
   root --> g0
 ```
