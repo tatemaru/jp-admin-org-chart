@@ -1,18 +1,24 @@
 # 法務省
 
-出典: https://ja.wikipedia.org/wiki/%E5%A4%96%E5%B1%80 / https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E7%9C%81%E5%BA%81%E5%86%8D%E7%B7%A8 / 各設置法
+出典: https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/satei_01_05.html
 
 ```mermaid
 flowchart TB
   root["法務省"]
-  subgraph g0["外局"]
-    n0_0["司法試験管理委員会"]
-    n0_1["公安審査委員会"]
-    n0_2["公安調査庁"]
+  subgraph g0["内部部局"]
+    n0_0["大臣官房"]
+    n0_1["民事局"]
+    n0_2["刑事局"]
   end
   root --> g0
-  subgraph g1["特別の機関"]
-    n1_0["検察庁"]
+  subgraph g1["外局"]
+    n1_0["出入国在留管理庁"]
+    n1_1["公安審査委員会"]
+    n1_2["公安調査庁"]
   end
   root --> g1
+  subgraph g2["特別の機関"]
+    n2_0["検察庁"]
+  end
+  root --> g2
 ```

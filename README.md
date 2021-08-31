@@ -1,8 +1,7 @@
 # 国の行政機関の組織図（Mermaid）
 
-時点: スポーツ庁設置（平成27年10月1日 / 2015-10-01）
+時点: デジタル庁設置直後（2021-09-01）。局構成は概略。
 
-平成以降は府省ごとにディレクトリを分け、**外局・主要な特別の機関**まで記載。
 
 ## 全体概要
 
@@ -16,6 +15,8 @@ flowchart TB
   Cab["内閣"]
   Cab --> NKikan["内閣の機関"]
   Cab --> CAO["内閣府"]
+  Cab --> Digital["デジタル庁"]
+  Cab --> Fukko["復興庁"]
   Cab --> Somu["総務省"]
   Cab --> Homu["法務省"]
   Cab --> Gaimu["外務省"]
@@ -25,17 +26,15 @@ flowchart TB
   Cab --> Maff["農林水産省"]
   Cab --> Meti["経済産業省"]
   Cab --> Mlit["国土交通省"]
-  Cab --> Fukko["復興庁"]
   Cab --> Env["環境省"]
-  CAO --> NPA["国家公安委員会"]
   Cab --> Mod["防衛省"]
-  CAO --> FSA["金融庁"]
 ```
 
 ## 行政機構
 
 - [内閣の機関](行政機構/内閣の機関/README.md)
 - [内閣府](行政機構/内閣府/README.md)
+- [デジタル庁](行政機構/デジタル庁/README.md)
 - [復興庁](行政機構/復興庁/README.md)
 - [総務省](行政機構/総務省/README.md)
 - [法務省](行政機構/法務省/README.md)
@@ -57,6 +56,4 @@ flowchart TB
 
 ## 出典
 
-- https://ja.wikipedia.org/wiki/中央省庁再編
-- https://ja.wikipedia.org/wiki/外局
-- 中央省庁等改革関連法・各府省設置法
+- [行政機構図（内閣人事局）](https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/satei_01_05.html)
