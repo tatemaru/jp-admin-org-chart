@@ -8,6 +8,9 @@ flowchart TB
   subgraph g0["内部部局"]
     n0_0["大臣官房"]
     n0_1["防衛政策局"]
+    n0_2["整備計画局"]
+    n0_3["人事教育局"]
+    n0_4["地方協力局"]
   end
   root --> g0
   subgraph g1["外局"]

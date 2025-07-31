@@ -1,6 +1,6 @@
 # 内閣府
 
-出典: https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/satei_01_05.html
+出典: https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/kikouzu_202508/3.pdf
 
 ```mermaid
 flowchart TB
