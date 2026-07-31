@@ -1,6 +1,6 @@
 # 内閣府
 
-出典: https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/kikouzu_202508/3.pdf
+出典: https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/satei_01_05.html
 
 ```mermaid
 flowchart TB
@@ -24,9 +24,10 @@ flowchart TB
     n2_1["国家公安委員会（警察庁）"]
     n2_2["個人情報保護委員会"]
     n2_3["カジノ管理委員会"]
-    n2_4["金融庁"]
-    n2_5["消費者庁"]
-    n2_6["こども家庭庁"]
+    n2_4["サイバー通信情報監理委員会"]
+    n2_5["金融庁"]
+    n2_6["消費者庁"]
+    n2_7["こども家庭庁"]
   end
   root --> g2
 ```
