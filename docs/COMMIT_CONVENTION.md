@@ -33,3 +33,7 @@ Git は AuthorDate / CommitterDate ともに Unix 時間のため **1970-01-01 �
 ## 出典一覧
 
 詳細は [SOURCES.md](./SOURCES.md)。
+
+## タグ
+
+見返し用の `era/*` / `point/*` / `snapshot/*` は [TAGS.md](./TAGS.md)。
