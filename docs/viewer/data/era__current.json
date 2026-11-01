@@ -1,7 +1,7 @@
 {
   "tag": "era/current",
   "label": "最新（HEAD）",
-  "subject": "docs: 見返し用 Git タグの使い方を追加",
+  "subject": "feat(viewer): タグ切替の組織図ビューアを追加",
   "when": "",
   "nodes": [
     {

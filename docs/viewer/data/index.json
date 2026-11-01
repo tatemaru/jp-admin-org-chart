@@ -60,7 +60,7 @@
     "file": "era__current.json",
     "label": "最新（HEAD）",
     "when": "",
-    "subject": "docs: 見返し用 Git タグの使い方を追加",
+    "subject": "feat(viewer): タグ切替の組織図ビューアを追加",
     "nodeCount": 186
   },
   {
