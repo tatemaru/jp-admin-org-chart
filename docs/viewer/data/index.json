@@ -1,0 +1,298 @@
+[
+  {
+    "tag": "era/dajokan",
+    "file": "era__dajokan.json",
+    "label": "時代: 太政官制",
+    "when": "1868-06-11（慶応4年閏4月21日）",
+    "subject": "feat(太政官): 政体書により太政官制を敷く",
+    "nodeCount": 9
+  },
+  {
+    "tag": "era/cabinet",
+    "file": "era__cabinet.json",
+    "label": "時代: 内閣制度",
+    "when": "1885-12-22",
+    "subject": "feat(内閣): 太政官を廃し内閣制度を創設",
+    "nodeCount": 16
+  },
+  {
+    "tag": "era/empire",
+    "file": "era__empire.json",
+    "label": "時代: 帝国議会",
+    "when": "1890-11-29",
+    "subject": "feat(帝国議会): 帝国議会を開設",
+    "nodeCount": 17
+  },
+  {
+    "tag": "era/postwar",
+    "file": "era__postwar.json",
+    "label": "時代: 日本国憲法",
+    "when": "1947-05-03",
+    "subject": "feat(日本国憲法): 日本国憲法施行時点の行政機構",
+    "nodeCount": 26
+  },
+  {
+    "tag": "era/heisei-pre-reorg",
+    "file": "era__heisei-pre-reorg.json",
+    "label": "時代: 再編直前（1府22）",
+    "when": "1998-12-15",
+    "subject": "feat(金融再生委員会): 金融再生委員会を設置し再編前の1府22省庁を記録",
+    "nodeCount": 28
+  },
+  {
+    "tag": "era/heisei-reorg",
+    "file": "era__heisei-reorg.json",
+    "label": "時代: 中央省庁再編以降",
+    "when": "2001-01-06",
+    "subject": "feat(中央省庁再編): 1府12省庁体制へ再編（外局まで分割）",
+    "nodeCount": 58
+  },
+  {
+    "tag": "era/reiwa-detail",
+    "file": "era__reiwa-detail.json",
+    "label": "時代: デジタル庁以降",
+    "when": "2021-09-01",
+    "subject": "feat(デジタル庁): デジタル庁を設置",
+    "nodeCount": 120
+  },
+  {
+    "tag": "era/current",
+    "file": "era__current.json",
+    "label": "最新（HEAD）",
+    "when": "",
+    "subject": "docs: 見返し用 Git タグの使い方を追加",
+    "nodeCount": 186
+  },
+  {
+    "tag": "point/1868-01-03-sanshoku",
+    "file": "point__1868-01-03-sanshoku.json",
+    "label": "1868-01-03（慶応3年12月9日） — feat(三職): 総裁・議定・参与を設置",
+    "when": "1868-01-03（慶応3年12月9日）",
+    "subject": "feat(三職): 総裁・議定・参与を設置",
+    "nodeCount": 4
+  },
+  {
+    "tag": "point/1868-06-11-seitai-sho",
+    "file": "point__1868-06-11-seitai-sho.json",
+    "label": "1868-06-11（慶応4年閏4月21日） — feat(太政官): 政体書により太政官制を敷く",
+    "when": "1868-06-11（慶応4年閏4月21日）",
+    "subject": "feat(太政官): 政体書により太政官制を敷く",
+    "nodeCount": 9
+  },
+  {
+    "tag": "point/1869-08-15-shokuinrei",
+    "file": "point__1869-08-15-shokuinrei.json",
+    "label": "1869-08-15（明治2年7月8日） — feat(太政官): 職員令により2官6省・開拓使とする",
+    "when": "1869-08-15（明治2年7月8日）",
+    "subject": "feat(太政官): 職員令により2官6省・開拓使とする",
+    "nodeCount": 10
+  },
+  {
+    "tag": "point/1871-09-13-sanin",
+    "file": "point__1871-09-13-sanin.json",
+    "label": "1871-09-13（明治4年7月29日） — feat(太政官): 三院制（正院・左院・右院）とする",
+    "when": "1871-09-13（明治4年7月29日）",
+    "subject": "feat(太政官): 三院制（正院・左院・右院）とする",
+    "nodeCount": 12
+  },
+  {
+    "tag": "point/1885-12-22-cabinet",
+    "file": "point__1885-12-22-cabinet.json",
+    "label": "1885-12-22 — feat(内閣): 太政官を廃し内閣制度を創設",
+    "when": "1885-12-22",
+    "subject": "feat(内閣): 太政官を廃し内閣制度を創設",
+    "nodeCount": 16
+  },
+  {
+    "tag": "point/1890-11-29-teikoku-gikai",
+    "file": "point__1890-11-29-teikoku-gikai.json",
+    "label": "1890-11-29 — feat(帝国議会): 帝国議会を開設",
+    "when": "1890-11-29",
+    "subject": "feat(帝国議会): 帝国議会を開設",
+    "nodeCount": 17
+  },
+  {
+    "tag": "point/1910-10-01-chosen-sotoku",
+    "file": "point__1910-10-01-chosen-sotoku.json",
+    "label": "1910-10-01 — feat(朝鮮総督府): 朝鮮総督府を設置",
+    "when": "1910-10-01",
+    "subject": "feat(朝鮮総督府): 朝鮮総督府を設置",
+    "nodeCount": 22
+  },
+  {
+    "tag": "point/1947-05-03-kenpo",
+    "file": "point__1947-05-03-kenpo.json",
+    "label": "1947-05-03 — feat(日本国憲法): 日本国憲法施行時点の行政機構",
+    "when": "1947-05-03",
+    "subject": "feat(日本国憲法): 日本国憲法施行時点の行政機構",
+    "nodeCount": 26
+  },
+  {
+    "tag": "point/1954-07-01-boeicho",
+    "file": "point__1954-07-01-boeicho.json",
+    "label": "1954-07-01 — feat(防衛庁): 防衛庁を設置",
+    "when": "1954-07-01",
+    "subject": "feat(防衛庁): 防衛庁を設置",
+    "nodeCount": 20
+  },
+  {
+    "tag": "point/1974-06-26-kokudocho",
+    "file": "point__1974-06-26-kokudocho.json",
+    "label": "1974-06-26 — feat(国土庁): 国土庁設置後の大臣庁体制",
+    "when": "1974-06-26",
+    "subject": "feat(国土庁): 国土庁設置後の大臣庁体制",
+    "nodeCount": 26
+  },
+  {
+    "tag": "point/1984-07-01-somucho",
+    "file": "point__1984-07-01-somucho.json",
+    "label": "1984-07-01 — feat(総務庁): 総務庁を設置",
+    "when": "1984-07-01",
+    "subject": "feat(総務庁): 総務庁を設置",
+    "nodeCount": 27
+  },
+  {
+    "tag": "point/1998-12-15-kinyu-saisei",
+    "file": "point__1998-12-15-kinyu-saisei.json",
+    "label": "1998-12-15 — feat(金融再生委員会): 金融再生委員会を設置し再編前の1府22省庁を記録",
+    "when": "1998-12-15",
+    "subject": "feat(金融再生委員会): 金融再生委員会を設置し再編前の1府22省庁を記録",
+    "nodeCount": 28
+  },
+  {
+    "tag": "point/2001-01-06-reorg",
+    "file": "point__2001-01-06-reorg.json",
+    "label": "2001-01-06 — feat(中央省庁再編): 1府12省庁体制へ再編（外局まで分割）",
+    "when": "2001-01-06",
+    "subject": "feat(中央省庁再編): 1府12省庁体制へ再編（外局まで分割）",
+    "nodeCount": 58
+  },
+  {
+    "tag": "point/2003-04-09-kotorii",
+    "file": "point__2003-04-09-kotorii.json",
+    "label": "2003-04-09 — feat(公正取引委員会): 公正取引委員会を内閣府の外局へ移管",
+    "when": "2003-04-09",
+    "subject": "feat(公正取引委員会): 公正取引委員会を内閣府の外局へ移管",
+    "nodeCount": 57
+  },
+  {
+    "tag": "point/2003-07-01-shokuryocho",
+    "file": "point__2003-07-01-shokuryocho.json",
+    "label": "2003-07-01 — feat(食糧庁): 食糧庁を廃止",
+    "when": "2003-07-01",
+    "subject": "feat(食糧庁): 食糧庁を廃止",
+    "nodeCount": 56
+  },
+  {
+    "tag": "point/2007-01-09-boeisho",
+    "file": "point__2007-01-09-boeisho.json",
+    "label": "2007-01-09 — feat(防衛省): 防衛庁を防衛省に改める",
+    "when": "2007-01-09",
+    "subject": "feat(防衛省): 防衛庁を防衛省に改める",
+    "nodeCount": 63
+  },
+  {
+    "tag": "point/2007-09-01-boeishisetsucho",
+    "file": "point__2007-09-01-boeishisetsucho.json",
+    "label": "2007-09-01 — feat(防衛施設庁): 防衛施設庁を廃止",
+    "when": "2007-09-01",
+    "subject": "feat(防衛施設庁): 防衛施設庁を廃止",
+    "nodeCount": 62
+  },
+  {
+    "tag": "point/2008-10-01-kanko-untsuanzen",
+    "file": "point__2008-10-01-kanko-untsuanzen.json",
+    "label": "2008-10-01 — feat(観光庁・運輸安全委員会): 観光庁・運輸安全委員会を設置",
+    "when": "2008-10-01",
+    "subject": "feat(観光庁・運輸安全委員会): 観光庁・運輸安全委員会を設置",
+    "nodeCount": 64
+  },
+  {
+    "tag": "point/2009-09-01-shohishacho",
+    "file": "point__2009-09-01-shohishacho.json",
+    "label": "2009-09-01 — feat(消費者庁): 消費者庁を設置",
+    "when": "2009-09-01",
+    "subject": "feat(消費者庁): 消費者庁を設置",
+    "nodeCount": 65
+  },
+  {
+    "tag": "point/2010-01-01-shahocho",
+    "file": "point__2010-01-01-shahocho.json",
+    "label": "2010-01-01 — feat(社会保険庁): 社会保険庁を廃止",
+    "when": "2010-01-01",
+    "subject": "feat(社会保険庁): 社会保険庁を廃止",
+    "nodeCount": 64
+  },
+  {
+    "tag": "point/2012-02-10-fukkocho",
+    "file": "point__2012-02-10-fukkocho.json",
+    "label": "2012-02-10 — feat(復興庁): 復興庁を設置",
+    "when": "2012-02-10",
+    "subject": "feat(復興庁): 復興庁を設置",
+    "nodeCount": 67
+  },
+  {
+    "tag": "point/2012-09-19-genshiryoku",
+    "file": "point__2012-09-19-genshiryoku.json",
+    "label": "2012-09-19 — feat(原子力規制委員会): 原子力規制委員会を設置",
+    "when": "2012-09-19",
+    "subject": "feat(原子力規制委員会): 原子力規制委員会を設置",
+    "nodeCount": 67
+  },
+  {
+    "tag": "point/2015-10-01-sports",
+    "file": "point__2015-10-01-sports.json",
+    "label": "2015-10-01 — feat(スポーツ庁): スポーツ庁を設置",
+    "when": "2015-10-01",
+    "subject": "feat(スポーツ庁): スポーツ庁を設置",
+    "nodeCount": 68
+  },
+  {
+    "tag": "point/2021-09-01-digital",
+    "file": "point__2021-09-01-digital.json",
+    "label": "2021-09-01 — feat(デジタル庁): デジタル庁を設置",
+    "when": "2021-09-01",
+    "subject": "feat(デジタル庁): デジタル庁を設置",
+    "nodeCount": 120
+  },
+  {
+    "tag": "point/2023-04-01-kodomo",
+    "file": "point__2023-04-01-kodomo.json",
+    "label": "2023-04-01 — feat(こども家庭庁): 内閣府の外局としてこども家庭庁を設置",
+    "when": "2023-04-01",
+    "subject": "feat(こども家庭庁): 内閣府の外局としてこども家庭庁を設置",
+    "nodeCount": 121
+  },
+  {
+    "tag": "point/2026-11-02-bosai",
+    "file": "point__2026-11-02-bosai.json",
+    "label": "2026-11-02 — feat(防災庁): 防災庁を設置",
+    "when": "2026-11-02",
+    "subject": "feat(防災庁): 防災庁を設置",
+    "nodeCount": 186
+  },
+  {
+    "tag": "snapshot/2024-08-01",
+    "file": "snapshot__2024-08-01.json",
+    "label": "年次snapshot 2024-08-01 — chore(snapshot): 行政機構図 2024.8 に追従",
+    "when": "2024-08-01",
+    "subject": "chore(snapshot): 行政機構図 2024.8 に追従",
+    "nodeCount": 121
+  },
+  {
+    "tag": "snapshot/2025-08-01",
+    "file": "snapshot__2025-08-01.json",
+    "label": "年次snapshot 2025-08-01 — chore(snapshot): 行政機構図 2025.8 に追従",
+    "when": "2025-08-01",
+    "subject": "chore(snapshot): 行政機構図 2025.8 に追従",
+    "nodeCount": 177
+  },
+  {
+    "tag": "snapshot/2026-08-01",
+    "file": "snapshot__2026-08-01.json",
+    "label": "年次snapshot 2026-08-01 — chore(snapshot): 行政機構図 2026.8 に追従",
+    "when": "2026-08-01",
+    "subject": "chore(snapshot): 行政機構図 2026.8 に追従",
+    "nodeCount": 178
+  }
+]

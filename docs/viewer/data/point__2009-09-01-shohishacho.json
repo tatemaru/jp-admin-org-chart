@@ -1,0 +1,333 @@
+{
+  "tag": "point/2009-09-01-shohishacho",
+  "label": "2009-09-01 — feat(消費者庁): 消費者庁を設置",
+  "subject": "feat(消費者庁): 消費者庁を設置",
+  "when": "2009-09-01",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:Diet",
+      "parentId": "__root__",
+      "name": "国会"
+    },
+    {
+      "id": "README.md#0:Court",
+      "parentId": "__root__",
+      "name": "裁判所"
+    },
+    {
+      "id": "README.md#0:Audit",
+      "parentId": "__root__",
+      "name": "会計検査院"
+    },
+    {
+      "id": "README.md#0:Cab",
+      "parentId": "__root__",
+      "name": "内閣"
+    },
+    {
+      "id": "README.md#0:NKikan",
+      "parentId": "README.md#0:Cab",
+      "name": "内閣の機関"
+    },
+    {
+      "id": "README.md#0:CAO",
+      "parentId": "README.md#0:Cab",
+      "name": "内閣府"
+    },
+    {
+      "id": "README.md#0:Somu",
+      "parentId": "README.md#0:Cab",
+      "name": "総務省"
+    },
+    {
+      "id": "README.md#0:Homu",
+      "parentId": "README.md#0:Cab",
+      "name": "法務省"
+    },
+    {
+      "id": "README.md#0:Gaimu",
+      "parentId": "README.md#0:Cab",
+      "name": "外務省"
+    },
+    {
+      "id": "README.md#0:Zaimu",
+      "parentId": "README.md#0:Cab",
+      "name": "財務省"
+    },
+    {
+      "id": "README.md#0:Mext",
+      "parentId": "README.md#0:Cab",
+      "name": "文部科学省"
+    },
+    {
+      "id": "README.md#0:Mhlw",
+      "parentId": "README.md#0:Cab",
+      "name": "厚生労働省"
+    },
+    {
+      "id": "README.md#0:Maff",
+      "parentId": "README.md#0:Cab",
+      "name": "農林水産省"
+    },
+    {
+      "id": "README.md#0:Meti",
+      "parentId": "README.md#0:Cab",
+      "name": "経済産業省"
+    },
+    {
+      "id": "README.md#0:Mlit",
+      "parentId": "README.md#0:Cab",
+      "name": "国土交通省"
+    },
+    {
+      "id": "README.md#0:Env",
+      "parentId": "README.md#0:Cab",
+      "name": "環境省"
+    },
+    {
+      "id": "README.md#0:NPA",
+      "parentId": "README.md#0:CAO",
+      "name": "国家公安委員会"
+    },
+    {
+      "id": "README.md#0:Mod",
+      "parentId": "README.md#0:Cab",
+      "name": "防衛省"
+    },
+    {
+      "id": "README.md#0:FSA",
+      "parentId": "README.md#0:CAO",
+      "name": "金融庁"
+    },
+    {
+      "id": "付録/会計検査院/README.md#0:n0_0",
+      "parentId": "README.md#0:Audit",
+      "name": "会計検査院"
+    },
+    {
+      "id": "付録/国会/README.md#0:n0_0",
+      "parentId": "README.md#0:Diet",
+      "name": "衆議院"
+    },
+    {
+      "id": "付録/国会/README.md#0:n0_1",
+      "parentId": "README.md#0:Diet",
+      "name": "参議院"
+    },
+    {
+      "id": "付録/裁判所/README.md#0:n0_0",
+      "parentId": "README.md#0:Court",
+      "name": "最高裁判所"
+    },
+    {
+      "id": "付録/裁判所/README.md#0:n0_1",
+      "parentId": "README.md#0:Court",
+      "name": "下級裁判所"
+    },
+    {
+      "id": "行政機構/内閣の機関/README.md#0:n0_0",
+      "parentId": "README.md#0:NKikan",
+      "name": "内閣官房"
+    },
+    {
+      "id": "行政機構/内閣の機関/README.md#0:n0_1",
+      "parentId": "README.md#0:NKikan",
+      "name": "内閣法制局"
+    },
+    {
+      "id": "行政機構/内閣の機関/README.md#0:n0_2",
+      "parentId": "README.md#0:NKikan",
+      "name": "安全保障会議"
+    },
+    {
+      "id": "行政機構/内閣の機関/README.md#0:n0_3",
+      "parentId": "README.md#0:NKikan",
+      "name": "人事院"
+    },
+    {
+      "id": "行政機構/内閣府/README.md#0:n0_0",
+      "parentId": "README.md#0:CAO",
+      "name": "宮内庁"
+    },
+    {
+      "id": "行政機構/内閣府/README.md#0:n1_0",
+      "parentId": "README.md#0:CAO",
+      "name": "公正取引委員会"
+    },
+    {
+      "id": "行政機構/内閣府/README.md#0:n1_1",
+      "parentId": "README.md#0:CAO",
+      "name": "国家公安委員会（警察庁）"
+    },
+    {
+      "id": "行政機構/内閣府/README.md#0:n1_2",
+      "parentId": "README.md#0:CAO",
+      "name": "金融庁"
+    },
+    {
+      "id": "行政機構/内閣府/README.md#0:n1_3",
+      "parentId": "README.md#0:CAO",
+      "name": "消費者庁"
+    },
+    {
+      "id": "行政機構/厚生労働省/README.md#0:n0_0",
+      "parentId": "README.md#0:Mhlw",
+      "name": "中央労働委員会"
+    },
+    {
+      "id": "行政機構/厚生労働省/README.md#0:n0_1",
+      "parentId": "README.md#0:Mhlw",
+      "name": "社会保険庁"
+    },
+    {
+      "id": "行政機構/国土交通省/README.md#0:n0_0",
+      "parentId": "README.md#0:Mlit",
+      "name": "観光庁"
+    },
+    {
+      "id": "行政機構/国土交通省/README.md#0:n0_1",
+      "parentId": "README.md#0:Mlit",
+      "name": "運輸安全委員会"
+    },
+    {
+      "id": "行政機構/国土交通省/README.md#0:n0_2",
+      "parentId": "README.md#0:Mlit",
+      "name": "気象庁"
+    },
+    {
+      "id": "行政機構/国土交通省/README.md#0:n0_3",
+      "parentId": "README.md#0:Mlit",
+      "name": "海上保安庁"
+    },
+    {
+      "id": "行政機構/国土交通省/README.md#0:n1_0",
+      "parentId": "README.md#0:Mlit",
+      "name": "国土地理院"
+    },
+    {
+      "id": "行政機構/国土交通省/README.md#0:n1_1",
+      "parentId": "README.md#0:Mlit",
+      "name": "海難審判所"
+    },
+    {
+      "id": "行政機構/外務省/README.md#0:n0_0",
+      "parentId": "README.md#0:Gaimu",
+      "name": "在外公館"
+    },
+    {
+      "id": "行政機構/文部科学省/README.md#0:n0_0",
+      "parentId": "README.md#0:Mext",
+      "name": "文化庁"
+    },
+    {
+      "id": "行政機構/法務省/README.md#0:n0_0",
+      "parentId": "README.md#0:Homu",
+      "name": "司法試験管理委員会"
+    },
+    {
+      "id": "行政機構/法務省/README.md#0:n0_1",
+      "parentId": "README.md#0:Homu",
+      "name": "公安審査委員会"
+    },
+    {
+      "id": "行政機構/法務省/README.md#0:n0_2",
+      "parentId": "README.md#0:Homu",
+      "name": "公安調査庁"
+    },
+    {
+      "id": "行政機構/法務省/README.md#0:n1_0",
+      "parentId": "README.md#0:Homu",
+      "name": "検察庁"
+    },
+    {
+      "id": "行政機構/環境省/README.md#0:n0_0",
+      "parentId": "README.md#0:Env",
+      "name": "再編時点の外局なし（庁から昇格）"
+    },
+    {
+      "id": "行政機構/経済産業省/README.md#0:n0_0",
+      "parentId": "README.md#0:Meti",
+      "name": "資源エネルギー庁"
+    },
+    {
+      "id": "行政機構/経済産業省/README.md#0:n0_1",
+      "parentId": "README.md#0:Meti",
+      "name": "特許庁"
+    },
+    {
+      "id": "行政機構/経済産業省/README.md#0:n0_2",
+      "parentId": "README.md#0:Meti",
+      "name": "中小企業庁"
+    },
+    {
+      "id": "行政機構/総務省/README.md#0:n0_0",
+      "parentId": "README.md#0:Somu",
+      "name": "公害等調整委員会"
+    },
+    {
+      "id": "行政機構/総務省/README.md#0:n0_1",
+      "parentId": "README.md#0:Somu",
+      "name": "消防庁"
+    },
+    {
+      "id": "行政機構/総務省/README.md#0:n1_0",
+      "parentId": "README.md#0:Somu",
+      "name": "中央選挙管理会"
+    },
+    {
+      "id": "行政機構/財務省/README.md#0:n0_0",
+      "parentId": "README.md#0:Zaimu",
+      "name": "国税庁"
+    },
+    {
+      "id": "行政機構/農林水産省/README.md#0:n0_0",
+      "parentId": "README.md#0:Maff",
+      "name": "林野庁"
+    },
+    {
+      "id": "行政機構/農林水産省/README.md#0:n0_1",
+      "parentId": "README.md#0:Maff",
+      "name": "水産庁"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_0",
+      "parentId": "README.md#0:Mod",
+      "name": "統合幕僚監部"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_1",
+      "parentId": "README.md#0:Mod",
+      "name": "陸上幕僚監部"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_2",
+      "parentId": "README.md#0:Mod",
+      "name": "海上幕僚監部"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_3",
+      "parentId": "README.md#0:Mod",
+      "name": "航空幕僚監部"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_4",
+      "parentId": "README.md#0:Mod",
+      "name": "陸上自衛隊"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_5",
+      "parentId": "README.md#0:Mod",
+      "name": "海上自衛隊"
+    },
+    {
+      "id": "行政機構/防衛省/README.md#0:n0_6",
+      "parentId": "README.md#0:Mod",
+      "name": "航空自衛隊"
+    }
+  ]
+}

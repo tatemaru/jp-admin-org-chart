@@ -1,0 +1,58 @@
+{
+  "tag": "point/1869-08-15-shokuinrei",
+  "label": "1869-08-15（明治2年7月8日） — feat(太政官): 職員令により2官6省・開拓使とする",
+  "subject": "feat(太政官): 職員令により2官6省・開拓使とする",
+  "when": "1869-08-15（明治2年7月8日）",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:JingiKan",
+      "parentId": "__root__",
+      "name": "神祇官"
+    },
+    {
+      "id": "README.md#0:Minbu",
+      "parentId": "README.md#0:JingiKan",
+      "name": "民部省"
+    },
+    {
+      "id": "README.md#0:Okura",
+      "parentId": "README.md#0:JingiKan",
+      "name": "大蔵省"
+    },
+    {
+      "id": "README.md#0:Hyobu",
+      "parentId": "README.md#0:JingiKan",
+      "name": "兵部省"
+    },
+    {
+      "id": "README.md#0:Kunai",
+      "parentId": "README.md#0:JingiKan",
+      "name": "宮内省"
+    },
+    {
+      "id": "README.md#0:Gaimu",
+      "parentId": "README.md#0:JingiKan",
+      "name": "外務省"
+    },
+    {
+      "id": "README.md#0:Keibu",
+      "parentId": "README.md#0:JingiKan",
+      "name": "刑部省"
+    },
+    {
+      "id": "README.md#0:Danjo",
+      "parentId": "__root__",
+      "name": "弾正台"
+    },
+    {
+      "id": "README.md#0:Kaitaku",
+      "parentId": "__root__",
+      "name": "開拓使"
+    }
+  ]
+}

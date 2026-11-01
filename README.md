@@ -2,6 +2,12 @@
 
 時点: 防災庁設置（2026-11-02）以降。
 
+## インタラクティブビューア
+
+親子関係は [d3-org-chart](https://github.com/bumbeishvili/org-chart)（MIT）で描画し、セレクトボックスで Git タグごとに切り替えます。
+
+- 公開ページ: https://tatemaru.github.io/jp-admin-org-chart/viewer/
+- データ再生成: `python3 scripts/build-org-data.py`
 
 ## 全体概要
 

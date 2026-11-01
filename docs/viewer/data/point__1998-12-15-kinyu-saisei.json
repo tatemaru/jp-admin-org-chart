@@ -1,0 +1,148 @@
+{
+  "tag": "point/1998-12-15-kinyu-saisei",
+  "label": "1998-12-15 — feat(金融再生委員会): 金融再生委員会を設置し再編前の1府22省庁を記録",
+  "subject": "feat(金融再生委員会): 金融再生委員会を設置し再編前の1府22省庁を記録",
+  "when": "1998-12-15",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:Diet",
+      "parentId": "__root__",
+      "name": "国会"
+    },
+    {
+      "id": "README.md#0:Court",
+      "parentId": "__root__",
+      "name": "裁判所"
+    },
+    {
+      "id": "README.md#0:Audit",
+      "parentId": "__root__",
+      "name": "会計検査院"
+    },
+    {
+      "id": "README.md#0:Cab",
+      "parentId": "__root__",
+      "name": "内閣"
+    },
+    {
+      "id": "README.md#0:Sorifu",
+      "parentId": "README.md#0:Cab",
+      "name": "総理府"
+    },
+    {
+      "id": "README.md#0:SomuCho",
+      "parentId": "README.md#0:Sorifu",
+      "name": "総務庁"
+    },
+    {
+      "id": "README.md#0:Hokkaido",
+      "parentId": "README.md#0:Sorifu",
+      "name": "北海道開発庁"
+    },
+    {
+      "id": "README.md#0:Boei",
+      "parentId": "README.md#0:Sorifu",
+      "name": "防衛庁"
+    },
+    {
+      "id": "README.md#0:Keizai",
+      "parentId": "README.md#0:Sorifu",
+      "name": "経済企画庁"
+    },
+    {
+      "id": "README.md#0:Kagaku",
+      "parentId": "README.md#0:Sorifu",
+      "name": "科学技術庁"
+    },
+    {
+      "id": "README.md#0:Kankyo",
+      "parentId": "README.md#0:Sorifu",
+      "name": "環境庁"
+    },
+    {
+      "id": "README.md#0:Okinawa",
+      "parentId": "README.md#0:Sorifu",
+      "name": "沖縄開発庁"
+    },
+    {
+      "id": "README.md#0:Kokudo",
+      "parentId": "README.md#0:Sorifu",
+      "name": "国土庁"
+    },
+    {
+      "id": "README.md#0:NPA",
+      "parentId": "README.md#0:Sorifu",
+      "name": "国家公安委員会"
+    },
+    {
+      "id": "README.md#0:Kinyu",
+      "parentId": "README.md#0:Sorifu",
+      "name": "金融再生委員会"
+    },
+    {
+      "id": "README.md#0:Homu",
+      "parentId": "README.md#0:Cab",
+      "name": "法務省"
+    },
+    {
+      "id": "README.md#0:Gaimu",
+      "parentId": "README.md#0:Cab",
+      "name": "外務省"
+    },
+    {
+      "id": "README.md#0:Okura",
+      "parentId": "README.md#0:Cab",
+      "name": "大蔵省"
+    },
+    {
+      "id": "README.md#0:Mombu",
+      "parentId": "README.md#0:Cab",
+      "name": "文部省"
+    },
+    {
+      "id": "README.md#0:Kosei",
+      "parentId": "README.md#0:Cab",
+      "name": "厚生省"
+    },
+    {
+      "id": "README.md#0:Norin",
+      "parentId": "README.md#0:Cab",
+      "name": "農林水産省"
+    },
+    {
+      "id": "README.md#0:Tsusan",
+      "parentId": "README.md#0:Cab",
+      "name": "通商産業省"
+    },
+    {
+      "id": "README.md#0:Unyu",
+      "parentId": "README.md#0:Cab",
+      "name": "運輸省"
+    },
+    {
+      "id": "README.md#0:Yusei",
+      "parentId": "README.md#0:Cab",
+      "name": "郵政省"
+    },
+    {
+      "id": "README.md#0:Rodo",
+      "parentId": "README.md#0:Cab",
+      "name": "労働省"
+    },
+    {
+      "id": "README.md#0:Kensetsu",
+      "parentId": "README.md#0:Cab",
+      "name": "建設省"
+    },
+    {
+      "id": "README.md#0:Jichi",
+      "parentId": "README.md#0:Cab",
+      "name": "自治省"
+    }
+  ]
+}

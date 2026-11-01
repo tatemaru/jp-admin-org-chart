@@ -1,0 +1,108 @@
+{
+  "tag": "point/1954-07-01-boeicho",
+  "label": "1954-07-01 — feat(防衛庁): 防衛庁を設置",
+  "subject": "feat(防衛庁): 防衛庁を設置",
+  "when": "1954-07-01",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:Diet",
+      "parentId": "__root__",
+      "name": "国会"
+    },
+    {
+      "id": "README.md#0:Court",
+      "parentId": "__root__",
+      "name": "裁判所"
+    },
+    {
+      "id": "README.md#0:Cab",
+      "parentId": "__root__",
+      "name": "内閣"
+    },
+    {
+      "id": "README.md#0:Sorifu",
+      "parentId": "README.md#0:Cab",
+      "name": "総理府"
+    },
+    {
+      "id": "README.md#0:Boei",
+      "parentId": "README.md#0:Sorifu",
+      "name": "防衛庁"
+    },
+    {
+      "id": "README.md#0:Hokkaido",
+      "parentId": "README.md#0:Sorifu",
+      "name": "北海道開発庁"
+    },
+    {
+      "id": "README.md#0:Gaimu",
+      "parentId": "README.md#0:Cab",
+      "name": "外務省"
+    },
+    {
+      "id": "README.md#0:Okura",
+      "parentId": "README.md#0:Cab",
+      "name": "大蔵省"
+    },
+    {
+      "id": "README.md#0:Homu",
+      "parentId": "README.md#0:Cab",
+      "name": "法務省"
+    },
+    {
+      "id": "README.md#0:Mombu",
+      "parentId": "README.md#0:Cab",
+      "name": "文部省"
+    },
+    {
+      "id": "README.md#0:Kosei",
+      "parentId": "README.md#0:Cab",
+      "name": "厚生省"
+    },
+    {
+      "id": "README.md#0:Norin",
+      "parentId": "README.md#0:Cab",
+      "name": "農林省"
+    },
+    {
+      "id": "README.md#0:Tsusan",
+      "parentId": "README.md#0:Cab",
+      "name": "通商産業省"
+    },
+    {
+      "id": "README.md#0:Unyu",
+      "parentId": "README.md#0:Cab",
+      "name": "運輸省"
+    },
+    {
+      "id": "README.md#0:Yusei",
+      "parentId": "README.md#0:Cab",
+      "name": "郵政省"
+    },
+    {
+      "id": "README.md#0:Rodo",
+      "parentId": "README.md#0:Cab",
+      "name": "労働省"
+    },
+    {
+      "id": "README.md#0:Kensetsu",
+      "parentId": "README.md#0:Cab",
+      "name": "建設省"
+    },
+    {
+      "id": "README.md#0:NPA",
+      "parentId": "__root__",
+      "name": "国家公安委員会"
+    },
+    {
+      "id": "README.md#0:Audit",
+      "parentId": "__root__",
+      "name": "会計検査院"
+    }
+  ]
+}

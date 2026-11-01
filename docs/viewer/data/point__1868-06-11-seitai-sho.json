@@ -1,0 +1,53 @@
+{
+  "tag": "point/1868-06-11-seitai-sho",
+  "label": "1868-06-11（慶応4年閏4月21日） — feat(太政官): 政体書により太政官制を敷く",
+  "subject": "feat(太政官): 政体書により太政官制を敷く",
+  "when": "1868-06-11（慶応4年閏4月21日）",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:Dajokan",
+      "parentId": "__root__",
+      "name": "太政官"
+    },
+    {
+      "id": "README.md#0:Gisei",
+      "parentId": "README.md#0:Dajokan",
+      "name": "議政官（上局・下局）"
+    },
+    {
+      "id": "README.md#0:Gyosei",
+      "parentId": "README.md#0:Dajokan",
+      "name": "行政官"
+    },
+    {
+      "id": "README.md#0:KeihoKan",
+      "parentId": "README.md#0:Dajokan",
+      "name": "刑法官"
+    },
+    {
+      "id": "README.md#0:JingiKan",
+      "parentId": "README.md#0:Dajokan",
+      "name": "神祇官"
+    },
+    {
+      "id": "README.md#0:KaikeiKan",
+      "parentId": "README.md#0:Dajokan",
+      "name": "会計官"
+    },
+    {
+      "id": "README.md#0:GunmuKan",
+      "parentId": "README.md#0:Dajokan",
+      "name": "軍務官"
+    },
+    {
+      "id": "README.md#0:GaikokuKan",
+      "parentId": "README.md#0:Dajokan",
+      "name": "外国官"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "tag": "point/1868-01-03-sanshoku",
+  "label": "1868-01-03（慶応3年12月9日） — feat(三職): 総裁・議定・参与を設置",
+  "subject": "feat(三職): 総裁・議定・参与を設置",
+  "when": "1868-01-03（慶応3年12月9日）",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:S",
+      "parentId": "__root__",
+      "name": "総裁"
+    },
+    {
+      "id": "README.md#0:G",
+      "parentId": "__root__",
+      "name": "議定"
+    },
+    {
+      "id": "README.md#0:P",
+      "parentId": "__root__",
+      "name": "参与"
+    }
+  ]
+}

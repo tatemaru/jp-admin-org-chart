@@ -1,0 +1,88 @@
+{
+  "tag": "era/cabinet",
+  "label": "時代: 内閣制度",
+  "subject": "feat(内閣): 太政官を廃し内閣制度を創設",
+  "when": "1885-12-22",
+  "nodes": [
+    {
+      "id": "__root__",
+      "parentId": null,
+      "name": "国家行政機構"
+    },
+    {
+      "id": "README.md#0:Gaimu",
+      "parentId": "__root__",
+      "name": "外務省"
+    },
+    {
+      "id": "README.md#0:Naimu",
+      "parentId": "__root__",
+      "name": "内務省"
+    },
+    {
+      "id": "README.md#0:Okura",
+      "parentId": "__root__",
+      "name": "大蔵省"
+    },
+    {
+      "id": "README.md#0:Rikugun",
+      "parentId": "__root__",
+      "name": "陸軍省"
+    },
+    {
+      "id": "README.md#0:Kaigun",
+      "parentId": "__root__",
+      "name": "海軍省"
+    },
+    {
+      "id": "README.md#0:Shiho",
+      "parentId": "__root__",
+      "name": "司法省"
+    },
+    {
+      "id": "README.md#0:Mombu",
+      "parentId": "__root__",
+      "name": "文部省"
+    },
+    {
+      "id": "README.md#0:Nosho",
+      "parentId": "__root__",
+      "name": "農商務省"
+    },
+    {
+      "id": "README.md#0:Teishin",
+      "parentId": "__root__",
+      "name": "逓信省"
+    },
+    {
+      "id": "README.md#0:Genro",
+      "parentId": "__root__",
+      "name": "元老院"
+    },
+    {
+      "id": "README.md#0:Daishin",
+      "parentId": "__root__",
+      "name": "大審院"
+    },
+    {
+      "id": "README.md#0:Audit",
+      "parentId": "__root__",
+      "name": "会計検査院"
+    },
+    {
+      "id": "README.md#0:Sanbo",
+      "parentId": "__root__",
+      "name": "参謀本部"
+    },
+    {
+      "id": "README.md#0:Kunai",
+      "parentId": "__root__",
+      "name": "宮内省"
+    },
+    {
+      "id": "README.md#0:Naidaijin",
+      "parentId": "__root__",
+      "name": "内大臣府"
+    }
+  ]
+}

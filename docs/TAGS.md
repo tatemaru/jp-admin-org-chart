@@ -11,6 +11,8 @@ git checkout point/2001-01-06-reorg
 git checkout era/heisei-reorg
 ```
 
+ブラウザでは [組織図ビューア](https://tatemaru.github.io/jp-admin-org-chart/viewer/) のセレクトボックスでも同じタグを選べます（`d3-org-chart`）。
+
 GitHub なら Releases/Tags、またはコミット履歴のタグ印からも飛べます。
 
 ## 命名
